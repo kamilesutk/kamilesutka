@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktyvūs žemėlapiai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="img/Map_001.png" alt="Dekoratyvinis žemėlapio fonas" style="width: 100%; height: auto;">
+
+    <header>
+        <div class="header-container">
+            <h1>Interaktyvūs žemėlapiai</h1>
+            <nav>
+                <ul>
+                    <li><a href="#apie">Apie</a></li>
+                    <li><a href="#info">Informacija</a></li>
+                    <li><a href="#zemelapiai">Žemėlapiai</a></li>
+                    <li><a href="kontaktai.html">Kontaktai</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="apie">
+            <h2 class="section-title">Svetainės paskirtis</h2>
+            <p>Ši svetainė apima keletą GIS analizės pavyzdžių, susijusių su demografiniais duomenimis, paslaugų pasiskirstymu bei gyventojų dalyvavimu planavimo procese. Analizės pateikiamos interaktyvių žemėlapių forma, kad naudotojas galėtų greitai suprasti teritorinius skirtumus, paslaugų pasiekiamumą ar demografinius pokyčius skirtingose Lietuvos vietovėse. <strong>Paspaudus ant paveikslėlių, atsidarys interaktyvūs žemėlapiai naujame lange.</strong></p>
+        </section>
+
+        <img src="img/divider.png" class="divider-img" alt="Skiriamoji linija">
+
+        <section id="info" class="info-section">
+            <h2 class="section-title">Informacinė skiltis</h2>
+            <p>Analizuojami tiek nacionaliniai duomenys, tiek palyginamos konkrečios savivaldybės – Šakių rajonas ir Vilniaus miestas. Pateikiami vizualizacijų pavyzdžiai iš Kepler.gl, QGIS Cloud ir ArcGIS Online.</p>
+            <img src="img/vaiku_paslaugos.jpg" alt="Vaikų paslaugų analizė iliustracija">
+        </section>
+
+        <img src="img/divider.png" class="divider-img" alt="Skiriamoji linija">
+
+        <section id="zemelapiai">
+            <h2 class="section-title">Interaktyvūs žemėlapiai</h2>
+            <div class="map-wrapper">
+                <div class="map-box">
+                    <h3>Gyventojų skaičius ir eismo įvykiai (Kepler.gl) – Map_1</h3>
+                    <p>Vaizduojamas Lietuvos savivaldybių gyventojų skaičius ir eismo įvykių tipai 3D formatu bei spalvų intensyvumu.</p>
+                    <a href="https://kamilesutk.github.io/kamilesutka/1_praktinis/map_1.html" target="_blank">
+                        <img src="img/Map_1.png" alt="Žemėlapio peržiūra 1">
+                    </a>
+                </div>
+                <div class="map-box">
+                    <h3>Darželiai ir vaikų pasiskirstymas Lietuvoje (Kepler.gl) – Map_2</h3>
+                    <p>Karštumo žemėlapis (Heat map) apie veikiančius darželius ir vaikų iki 7 metų amžiaus skaičiaus pasiskirstymas Lietuvoje.</p>
+                    <a href="https://kamilesutk.github.io/kamilesutka/1_praktinis/map_2.html" target="_blank">
+                        <img src="img/Map_2.png" alt="Žemėlapio peržiūra 2">
+                    </a>
+                </div>
+                <div class="map-box">
+                    <h3>Gimstamumo pokyčiai 2011–2022 m. (Kepler.gl) – Map_3</h3>
+                    <p>Pateikiamas palyginimas tarp 2011 ir 2022 m. gimusiųjų skaičiaus Lietuvos savivaldybėse, duomenys vaizduojami 3D formatu bei spalvų intensyvumu.</p>
+                    <a href="https://kamilesutk.github.io/kamilesutka/1_praktinis/map_3.html" target="_blank">
+                        <img src="img/Map_3.png" alt="Žemėlapio peržiūra 3">
+                    </a>
+                </div>
+                <div class="map-box">
+                    <h3>Šakių r. sav. vaikų, darželių ir ambulatorijų pasiskirstymas (QGIS Cloud) – Map_4</h3>
+                    <iframe src="https://kamilesutk.github.io/kamilesutka/2_praktinis/index.html"></iframe>
+                </div>
+                <div class="map-box">
+                    <h3>Vilniaus r. sav. vaikų, darželių ir ambulatorijų pasiskirstymas (QGIS Cloud) – Map_5</h3>
+                    <iframe src="https://kamilesutk.github.io/kamilesutka/2_praktinis/index1.html"></iframe>
+                </div>
+                <div class="map-box">
+                    <h3>Gyventojų problemų ir pasiūlymų žemėlapis (ArcGIS Online) – Map_6</h3>
+                    <iframe src="https://kamilesutk.github.io/kamilesutka/3_praktinis/"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <img src="img/Map_002.png" alt="GIS apatinis dekoratyvinis paveikslėlis" style="width: 100%; height: auto;">
+
+    <footer>
+        <p>&copy; 2025 Kamilė Sutkaitė | 4-tas IT ir GIS praktikos darbas | Sukurta naudojant HTML + CSS</p>
+    </footer>
+</body>
+</html>
+
